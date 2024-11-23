@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PA_1616S_GPS")(type "KiCad")(uri "${KIPRJMOD} /../SymbolsAndFootprints/footprints.pretty")(options "")(descr ""))
+)
