@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "790"
+	(symbol "PA1616S_GPS"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,8 +17,8 @@
 				)
 			)
 		)
-		(property "Value" "790"
-			(at 33.02 7.62 0)
+		(property "Value" ""
+			(at 39.37 7.874 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "PA1616S_ADA"
-			(at 33.528 13.208 0)
+			(at 14.986 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "790"
-			(at 33.274 10.414 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/746/CD+PA1616S+Datasheet.v03.pdf"
+			(at 49.53 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,15 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "790"
+		(property "ki_keywords" "PA1616S_GPS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,53 +72,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "790_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -27.94) (xy 58.42 -27.94)
-				)
+		(symbol "PA1616S_GPS_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 58.42 -27.94)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -27.94)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 58.42 -27.94) (xy 58.42 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 58.42 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line
