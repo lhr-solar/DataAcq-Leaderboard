@@ -6,6 +6,7 @@
 *.kicad_sch-bak
 *.tmp
 *.~*
+~*.kicad_sch.lck
 
 # Auto-generated files
 *.net
