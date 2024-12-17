@@ -3776,6 +3776,12 @@
 		(uuid "0704db31-91d6-41f7-bb88-f541be236d51")
 	)
 	(junction
+		(at 382.27 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071fe83f-3a1d-4709-980e-6f6bd9de1fb2")
+	)
+	(junction
 		(at 157.48 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3846,6 +3852,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5addae18-44ba-4f12-8a7a-9717ab9216f3")
+	)
+	(junction
+		(at 382.27 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6efe0e30-59dc-4f9c-8b1d-5ed9ec2429cc")
+	)
+	(junction
+		(at 378.46 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a9ff0c-f615-45cd-81de-c2bc8e77bb8e")
 	)
 	(junction
 		(at 210.82 181.61)
@@ -4038,20 +4056,12 @@
 		(uuid "4f59546a-6109-42c2-9312-4ab4f1808084")
 	)
 	(no_connect
-		(at 361.95 90.17)
-		(uuid "57330d54-e31a-4e5b-99d3-93da0ae4e12b")
-	)
-	(no_connect
 		(at 55.88 55.88)
 		(uuid "5f3635ba-384b-4b95-b0bb-c309f5c63c41")
 	)
 	(no_connect
 		(at 170.18 198.12)
 		(uuid "6344f4eb-ec4e-43e3-9561-7290bb3d38dd")
-	)
-	(no_connect
-		(at 361.95 92.71)
-		(uuid "64cffb78-8f3c-4ae1-b5a3-f362ff833337")
 	)
 	(no_connect
 		(at 55.88 48.26)
@@ -4064,6 +4074,14 @@
 	(no_connect
 		(at 55.88 76.2)
 		(uuid "9a1236e0-c141-4339-8daf-1e911085e9a7")
+	)
+	(no_connect
+		(at 295.91 100.33)
+		(uuid "a18227a3-0115-4696-a6cb-ddf047fa385d")
+	)
+	(no_connect
+		(at 295.91 97.79)
+		(uuid "a3e57a24-c16b-4a6d-ac93-4b7f755a4b71")
 	)
 	(no_connect
 		(at 170.18 205.74)
@@ -4317,16 +4335,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 100.33) (xy 290.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7699a4-1797-4136-b96b-738256dc29ed")
-	)
-	(wire
-		(pts
 			(xy 69.85 200.66) (xy 69.85 203.2)
 		)
 		(stroke
@@ -4357,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 77.47) (xy 378.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225a9e96-e8ab-4fe6-8e90-d4fc47535d31")
+	)
+	(wire
+		(pts
 			(xy 152.4 102.87) (xy 152.4 111.76)
 		)
 		(stroke
@@ -4364,16 +4382,6 @@
 			(type default)
 		)
 		(uuid "24296c7b-82f8-4df2-87e8-20d1a14daa9c")
-	)
-	(wire
-		(pts
-			(xy 295.91 97.79) (xy 281.94 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2644b054-d431-4364-8f0b-80658c309e27")
 	)
 	(wire
 		(pts
@@ -4587,16 +4595,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 111.76) (xy 281.94 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f6408c-fe0b-4bb9-b652-52efc5c56910")
-	)
-	(wire
-		(pts
 			(xy 105.41 165.1) (xy 106.68 165.1)
 		)
 		(stroke
@@ -4654,6 +4652,16 @@
 			(type default)
 		)
 		(uuid "482baa2d-8252-4d90-87b0-e2d89f6eae04")
+	)
+	(wire
+		(pts
+			(xy 378.46 92.71) (xy 384.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a41cd57-3dde-4cf3-967b-dbf490c98d97")
 	)
 	(wire
 		(pts
@@ -4754,6 +4762,16 @@
 			(type default)
 		)
 		(uuid "57f7d270-7db9-49da-97a3-acbf1bbbfef8")
+	)
+	(wire
+		(pts
+			(xy 361.95 90.17) (xy 382.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5842d4d1-2a2f-4d0b-b11f-5e1d4e978d83")
 	)
 	(wire
 		(pts
@@ -4987,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 95.25) (xy 373.38 95.25)
+			(xy 361.95 95.25) (xy 384.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5004,16 +5022,6 @@
 			(type default)
 		)
 		(uuid "760a25e0-c637-4539-9a59-ad0b5455d1cf")
-	)
-	(wire
-		(pts
-			(xy 290.83 111.76) (xy 290.83 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7735cf41-3baf-453b-95d0-0411f6696d85")
 	)
 	(wire
 		(pts
@@ -5197,6 +5205,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 85.09) (xy 378.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de67cad-e6e4-41bc-ab87-c6c51500e281")
+	)
+	(wire
+		(pts
 			(xy 273.05 35.56) (xy 273.05 36.83)
 		)
 		(stroke
@@ -5224,6 +5242,16 @@
 			(type default)
 		)
 		(uuid "8ff2759e-9681-4a89-8d9b-eb2f1bd50544")
+	)
+	(wire
+		(pts
+			(xy 378.46 74.93) (xy 382.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f6d816-e909-4fff-b1ac-ff0070904f2d")
 	)
 	(wire
 		(pts
@@ -5294,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "9dacb745-6e78-4cb5-bcb5-eb85a385e7b2")
+	)
+	(wire
+		(pts
+			(xy 382.27 74.93) (xy 382.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7251cf-c3b3-46c2-94ac-970f1d7df451")
 	)
 	(wire
 		(pts
@@ -5377,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 90.17) (xy 384.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a0efb0-3392-496f-89ee-08645edd83b8")
+	)
+	(wire
+		(pts
 			(xy 67.31 187.96) (xy 86.36 187.96)
 		)
 		(stroke
@@ -5434,16 +5482,6 @@
 			(type default)
 		)
 		(uuid "af72d6ad-aa6c-4283-99cc-81d5bd8453d2")
-	)
-	(wire
-		(pts
-			(xy 281.94 97.79) (xy 281.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05533c6-6210-467f-af6d-30a86529af38")
 	)
 	(wire
 		(pts
@@ -5727,6 +5765,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 92.71) (xy 378.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e48b43-4eab-4423-9fdf-651959c0fc46")
+	)
+	(wire
+		(pts
 			(xy 93.98 203.2) (xy 91.44 203.2)
 		)
 		(stroke
@@ -5774,6 +5822,16 @@
 			(type default)
 		)
 		(uuid "d86989bd-f493-4a05-8a23-3704c9d75a9c")
+	)
+	(wire
+		(pts
+			(xy 382.27 85.09) (xy 382.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d926347e-4b2c-4552-a9bc-37e72d4bb22d")
 	)
 	(wire
 		(pts
@@ -5894,16 +5952,6 @@
 			(type default)
 		)
 		(uuid "e500c4cf-8e49-4d98-be8b-17edb32224cb")
-	)
-	(wire
-		(pts
-			(xy 290.83 100.33) (xy 290.83 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6eec2a2-c05d-4e2e-a169-94be667166f7")
 	)
 	(wire
 		(pts
@@ -6217,6 +6265,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 73.66) (xy 382.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8c4422-d413-490a-9a50-fba8a5e8c831")
+	)
+	(wire
+		(pts
 			(xy 22.86 38.1) (xy 22.86 40.64)
 		)
 		(stroke
@@ -6235,9 +6293,47 @@
 		)
 		(uuid "fedadeee-a23b-4883-b278-daf664218971")
 	)
+	(text_box "Note: This is 3.3v from the MCU, not the filtered 3.3v for the GPS."
+		(exclude_from_sim no)
+		(at 387.35 67.31 0)
+		(size 10.16 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "b0c5a599-b884-4145-98e2-f57d29117353")
+	)
+	(text_box "Note: still need to check that this power architecure from the USB to the LTE actually works. they may not have the same references."
+		(exclude_from_sim no)
+		(at 72.39 215.9 0)
+		(size 12.7 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "bd0a1396-b652-4352-8c15-c8b09a54a30b")
+	)
 	(text_box "Note: 1PPS Could be used to help keep time / synchronization"
 		(exclude_from_sim no)
-		(at 373.38 96.52 0)
+		(at 382.27 96.52 0)
 		(size 10.16 7.62)
 		(stroke
 			(width 0)
@@ -6363,17 +6459,6 @@
 		)
 		(uuid "e9a13dfa-8a15-4662-a88c-142bd098b47c")
 	)
-	(label "MCUtoGPS_UART_RX"
-		(at 281.94 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "10f32b51-74e0-4505-9b85-6fde4dd0c0b2")
-	)
 	(label "GPS_NRESET"
 		(at 290.83 80.01 0)
 		(fields_autoplaced yes)
@@ -6407,8 +6492,8 @@
 		)
 		(uuid "2f371939-7b47-4c5d-bd2d-3edd0edd020e")
 	)
-	(label "GPS_1PPS_ToMCU"
-		(at 373.38 95.25 0)
+	(label "GPS_1PPS"
+		(at 384.81 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6428,6 +6513,17 @@
 			(justify left bottom)
 		)
 		(uuid "3655bc2f-6818-45e0-a4a4-e8846b904ab2")
+	)
+	(label "GPS_I2C_SDA"
+		(at 384.81 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d31b03-9ab3-4c4d-9ddd-a02397585d57")
 	)
 	(label "RF_UART_RX"
 		(at 129.54 50.8 0)
@@ -6472,17 +6568,6 @@
 			(justify left bottom)
 		)
 		(uuid "525f4033-97a1-4e58-b008-76d0127201c0")
-	)
-	(label "GPS_UART_TX"
-		(at 290.83 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a96da26-abd7-42ac-89eb-10de29ca8934")
 	)
 	(label "LTE_UART_TX"
 		(at 186.69 168.91 0)
@@ -6605,17 +6690,6 @@
 		)
 		(uuid "948b76c9-0940-4a80-8229-12c035425d71")
 	)
-	(label "MCUtoGPS_UART_TX"
-		(at 290.83 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "96186ca1-c8ef-4af0-9b87-f6e9abf1732e")
-	)
 	(label "RF_STATUS_MODULE"
 		(at 114.3 87.63 0)
 		(fields_autoplaced yes)
@@ -6715,6 +6789,17 @@
 		)
 		(uuid "c286a606-0d14-42b8-84e0-136be5bda0bd")
 	)
+	(label "GPS_I2C_SCL"
+		(at 384.81 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3e62f2f-3621-407e-ab56-ed608ad8cfaf")
+	)
 	(label "RF_NCTS"
 		(at 129.54 46.99 0)
 		(fields_autoplaced yes)
@@ -6791,17 +6876,6 @@
 			(justify left bottom)
 		)
 		(uuid "d69e5337-f91b-4a94-913c-45c3b7cf3429")
-	)
-	(label "GPS_UART_RX"
-		(at 290.83 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4cac55a-45f6-4698-94e4-1637e75fc0e9")
 	)
 	(label "LTE_VCC"
 		(at 99.06 149.86 0)
@@ -8773,6 +8847,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 378.46 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ab01b4-1d2f-4559-adf0-7887fe839bbc")
+		(property "Reference" "R4"
+			(at 375.158 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 375.158 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 380.238 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NRSET Pull Up"
+			(at 378.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b35854-1ac7-4aa4-9e32-00340e431ab5")
+		)
+		(pin "2"
+			(uuid "78a9c55c-cd21-42b4-81e7-42f297953252")
+		)
+		(instances
+			(project "DataAcqLeaderBoard"
+				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 63.5 156.21 0)
 		(unit 1)
@@ -9339,7 +9480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DataAcqLeaderBoard-Footprints:XBeeXR900RFMicro"
 			(at 101.6 -7.62 0)
 			(effects
 				(font
@@ -9673,76 +9814,6 @@
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 290.83 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69de1161-343d-4f6f-b92c-e907bedc6451")
-		(property "Reference" "R4"
-			(at 293.37 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 293.37 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.052 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NRSET Pull Up"
-			(at 290.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c87ce4a6-beea-475d-80ef-f72123f6c5c5")
-		)
-		(pin "2"
-			(uuid "0db0dafc-6e2a-418f-8b25-71c11a57023e")
-		)
-		(instances
-			(project "DataAcqLeaderBoard"
-				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11168,76 +11239,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 281.94 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab1ce10d-1f44-4572-aa98-3916e8cd62ff")
-		(property "Reference" "R3"
-			(at 284.48 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 284.48 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.162 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 281.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NRSET Pull Up"
-			(at 281.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9649b006-19f1-485a-9222-571d9c37668f")
-		)
-		(pin "2"
-			(uuid "60158a64-e18b-498a-8e33-da56c0254d15")
-		)
-		(instances
-			(project "DataAcqLeaderBoard"
-				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 209.55 0)
 		(unit 1)
@@ -11533,7 +11534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DataAcqLeaderBoard-Footprints:DigiXBee3LTECat4"
 			(at 151.13 134.62 0)
 			(effects
 				(font
@@ -11624,6 +11625,73 @@
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 382.27 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc6e2ab5-3b07-464d-8e6a-ab07806ca3b8")
+		(property "Reference" "R3"
+			(at 385.318 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 385.318 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.048 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NRSET Pull Up"
+			(at 382.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64ed73a0-037a-4027-9a4e-38730f67c259")
+		)
+		(pin "2"
+			(uuid "7fd4dfa3-007c-45ee-9713-c12b83f6ca29")
+		)
+		(instances
+			(project "DataAcqLeaderBoard"
+				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11761,6 +11829,72 @@
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 382.27 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c132dcd6-e5ed-412c-8d2c-fa68a371a93e")
+		(property "Reference" "#PWR034"
+			(at 382.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 382.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 382.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98df2b53-0311-46fc-b02e-5cf628463103")
+		)
+		(instances
+			(project "DataAcqLeaderBoard"
+				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
