@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "790 ")
 	(property "Reference" "REF**"
-		(at -6 -9 0)
+		(at -6 -10 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "892ea25c-35cf-453e-b517-c979a54841aa")
@@ -456,5 +456,16 @@
 		(size 2.0066 0.9906)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4a4921da-41fb-4581-a763-316eef3722de")
+	)
+	(model "${KIPRJMOD}/3Dmodels/CD-PA1616D--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.1 1 1.1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
