@@ -373,10 +373,10 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
-			(footprints not_allowed)
+			(footprints allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -411,10 +411,10 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
-			(footprints not_allowed)
+			(footprints allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -438,7 +438,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "User.9")
+		(layers "*.Cu" "*.Paste")
 		(uuid "572994e8-7858-4851-87ae-edcd4f9edcad")
 		(name "BLEKEEPOUT")
 		(hatch edge 0.5)
@@ -449,10 +449,10 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
-			(footprints not_allowed)
+			(footprints allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -466,7 +466,7 @@
 	)
 	(model "${KIPRJMOD}/3Dmodels/XB3-CAT1-Tha.STEP"
 		(offset
-			(xyz 15.24 -21.59 2.7432)
+			(xyz 15.24 -21.59 5.4864)
 		)
 		(scale
 			(xyz 1 1 1)
