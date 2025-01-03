@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.18,
+          "via_gap": 0.3,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -441,7 +446,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -510,7 +515,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(2, 61, 176, 0.251)",
+        "pcb_color": "rgba(2, 61, 176, 0.502)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -648,7 +653,7 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "*+*"
+        "pattern": "+*"
       },
       {
         "netclass": "GND",
@@ -657,6 +662,10 @@
       {
         "netclass": "CAN",
         "pattern": "/CAN*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/+*"
       }
     ]
   },
@@ -742,6 +751,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
