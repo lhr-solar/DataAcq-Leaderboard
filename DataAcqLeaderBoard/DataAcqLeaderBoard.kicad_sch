@@ -4789,6 +4789,116 @@
 				)
 			)
 		)
+		(symbol "utsvt-misc:Logo_Placeholder"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Placeholder"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Graph footprint placeholder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic, symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Placeholder_0_1"
+				(arc
+					(start -1.905 0)
+					(mid 0 -1.8967)
+					(end 1.905 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8448)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 252.73 45.72)
@@ -4873,12 +4983,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e7b9f21-f5a9-44f3-b7a5-8e1c1bf2cd7d")
-	)
-	(junction
-		(at 152.4 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f77b600-4853-43a8-9c77-93d82fe970a2")
 	)
 	(junction
 		(at 187.96 118.11)
@@ -5237,6 +5341,10 @@
 	(no_connect
 		(at 63.5 90.17)
 		(uuid "d1c778e6-8a59-4f66-aa90-c19ebdacb299")
+	)
+	(no_connect
+		(at 120.65 90.17)
+		(uuid "d7bf9dc2-b6ed-44fe-b09a-b700852b44b7")
 	)
 	(no_connect
 		(at 337.82 66.04)
@@ -5773,16 +5881,6 @@
 			(type default)
 		)
 		(uuid "23ba846e-c5b4-4f09-957c-c283511d42ab")
-	)
-	(wire
-		(pts
-			(xy 162.56 109.22) (xy 162.56 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24296c7b-82f8-4df2-87e8-20d1a14daa9c")
 	)
 	(wire
 		(pts
@@ -6826,16 +6924,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 162.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0c0767-0973-43b6-8f29-43dcbd94d9a1")
-	)
-	(wire
-		(pts
 			(xy 67.31 224.79) (xy 73.66 224.79)
 		)
 		(stroke
@@ -7816,16 +7904,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca6a9ef-5cb7-4cf1-9919-e5bc9d8551f7")
-	)
-	(wire
-		(pts
 			(xy 40.64 172.72) (xy 50.8 172.72)
 		)
 		(stroke
@@ -8566,16 +8644,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 162.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6dcee4c-fa1a-45f3-aed9-8b954d2d6ea8")
-	)
-	(wire
-		(pts
 			(xy 270.51 163.83) (xy 270.51 166.37)
 		)
 		(stroke
@@ -8663,16 +8731,6 @@
 			(type default)
 		)
 		(uuid "faaa7148-fbc8-4705-a39d-6ac7aeffab9e")
-	)
-	(wire
-		(pts
-			(xy 152.4 118.11) (xy 162.56 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fabb4549-cd27-4be8-be0d-a3909c09e408")
 	)
 	(wire
 		(pts
@@ -9130,7 +9188,7 @@
 		)
 		(uuid "69ceec0f-6347-4193-92c9-ffb52840961f")
 	)
-	(text "Mouting"
+	(text "MISC"
 		(exclude_from_sim no)
 		(at 228.346 102.87 0)
 		(effects
@@ -9202,7 +9260,7 @@
 	)
 	(text "R=(Vs-Vf)/If = (3.3-1.5)/2mA = 900 ==> 1000"
 		(exclude_from_sim no)
-		(at 177.546 95.504 0)
+		(at 151.638 91.694 0)
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -9317,7 +9375,7 @@
 		)
 		(uuid "24bedeaf-f89f-42bf-97f7-9c0537fb2304")
 	)
-	(label "RF_D2"
+	(label "RF_D21"
 		(at 152.4 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9339,7 +9397,7 @@
 		)
 		(uuid "28cb5228-a77e-494d-8055-5def2a16f642")
 	)
-	(label "RF_D4"
+	(label "RF_D3"
 		(at 130.81 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9361,7 +9419,7 @@
 		)
 		(uuid "2e8d6174-7569-4abe-b11d-77555c535f71")
 	)
-	(label "LTE_D8"
+	(label "LTE_D7"
 		(at 179.07 218.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9537,7 +9595,7 @@
 		)
 		(uuid "5bf19319-70a2-4e5b-a4f0-736e8b6a1f06")
 	)
-	(label "RF_D3"
+	(label "RF_D2"
 		(at 142.24 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9691,18 +9749,7 @@
 		)
 		(uuid "8126f419-3fd1-4b01-a9a1-e822c65a925d")
 	)
-	(label "RF_D1"
-		(at 162.56 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left bottom)
-		)
-		(uuid "81bb4c01-5a33-4cd3-b9ae-0e87313a160f")
-	)
-	(label "LTE_D6"
+	(label "LTE_D5"
 		(at 68.58 196.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9768,7 +9815,7 @@
 		)
 		(uuid "948b76c9-0940-4a80-8229-12c035425d71")
 	)
-	(label "RF_STATUS_MODULE"
+	(label "RF_COMISSION_LED"
 		(at 125.73 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9834,7 +9881,7 @@
 		)
 		(uuid "ab66f171-07a5-4923-8a20-d9823e58c7ad")
 	)
-	(label "LTE_D5"
+	(label "LTE_D4"
 		(at 55.88 196.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9877,17 +9924,6 @@
 			(justify right bottom)
 		)
 		(uuid "b53fc080-72e3-4ed7-85ab-b60eb17818ca")
-	)
-	(label "RF_STATUS_COMMISION"
-		(at 125.73 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb6a814b-6c7d-4d13-a3b4-40526c8012b6")
 	)
 	(label "LTE_UART_RX"
 		(at 297.18 66.04 0)
@@ -9955,7 +9991,7 @@
 		)
 		(uuid "c48e14d9-d215-46e0-ac45-355bd51cbceb")
 	)
-	(label "LTE_D7"
+	(label "LTE_D6"
 		(at 187.96 209.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10010,7 +10046,7 @@
 		)
 		(uuid "cebee02b-c563-4d69-be48-9fd435099426")
 	)
-	(label "GPS_D9"
+	(label "GPS_D8"
 		(at 270.51 220.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10336,6 +10372,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d6c19a9-e729-4fdd-9e64-65d243c7af69")
 		)
@@ -10540,7 +10594,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C100F1GACTU "
+			(at 92.71 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C100F1GACTU?qs=sowatxGsQyzyczo0gS71EQ%3D%3D"
+			(at 92.71 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C100F1GACTU"
 			(at 92.71 166.37 0)
 			(effects
 				(font
@@ -10566,7 +10638,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 227.33 128.27 0)
+		(at 233.68 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10575,7 +10647,7 @@
 		(fields_autoplaced yes)
 		(uuid "06ccc400-4b59-43d8-aebb-23ae530046fc")
 		(property "Reference" "H3"
-			(at 229.87 126.9999 0)
+			(at 236.22 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10656,7 @@
 			)
 		)
 		(property "Value" "M.3"
-			(at 229.87 129.5399 0)
+			(at 236.22 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10665,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 227.33 128.27 0)
+			(at 233.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 128.27 0)
+			(at 233.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,7 +10683,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 227.33 128.27 0)
+			(at 233.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 233.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 233.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,6 +10771,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 90.17 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 90.17 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 90.17 191.77 0)
 			(effects
 				(font
@@ -10780,7 +10888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "099ba877-3c91-4d11-8d0b-27ada9de9865")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 60.198 201.676 90)
 			(effects
 				(font
@@ -10832,6 +10940,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 55.88 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 55.88 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77898f5b-7f11-443a-9216-b44c4d48df5f")
 		)
@@ -10841,7 +10967,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11035,7 +11161,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "755-TCTPL0G107M8R-V1 "
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/TCTPL0G107M8R-V1?qs=Y0Uzf4wQF3nuA76NpVN8fA%3D%3D"
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TCTPL0G107M8R-V1 "
 			(at 30.48 166.37 0)
 			(effects
 				(font
@@ -11114,7 +11258,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 168.91 69.85 0)
 			(effects
 				(font
@@ -11193,7 +11355,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-43650-0215 "
+			(at 276.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/538-43650-0215"
+			(at 276.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215 "
 			(at 276.86 127 0)
 			(effects
 				(font
@@ -11272,7 +11452,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 142.24 102.87 0)
 			(effects
 				(font
@@ -11351,7 +11549,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C103F8HAUTO "
+			(at 71.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C103F8HACAUTO?qs=j%252B1pi9TdxUbLXPjCpdS2Hw%3D%3D"
+			(at 71.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C103F8HACAUTO "
 			(at 71.12 166.37 0)
 			(effects
 				(font
@@ -11429,7 +11645,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 187.96 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 187.96 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 187.96 204.47 0)
 			(effects
 				(font
@@ -11506,7 +11740,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-53307-2471 "
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Molex/53307-2471?qs=3DzawVMofg%252Bx9c%2FNm7UacA%3D%3D&srsltid=AfmBOor27lcVljgx-DeBHh1R2KPiIIVXjLsa6vFQtsHEsVrDebWYykB5"
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "53307-2471 "
 			(at 283.21 76.2 0)
 			(effects
 				(font
@@ -11854,7 +12106,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C103F8HAUTO "
+			(at 194.31 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C103F8HACAUTO?qs=j%252B1pi9TdxUbLXPjCpdS2Hw%3D%3D"
+			(at 194.31 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C103F8HACAUTO "
 			(at 194.31 196.85 0)
 			(effects
 				(font
@@ -11925,6 +12195,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Molex/22-28-4035?qs=GAPJcf4kvduMvGzMBKHaPg%3D%3D"
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "22-28-4035 "
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-28-4035 "
 			(at 212.09 158.75 0)
 			(effects
 				(font
@@ -12071,7 +12368,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "https://www.adafruit.com/product/790?gad_source=1&gclid=Cj0KCQiAsaS7BhDPARIsAAX5cSBvdF13g1xnso75e2ID2pkFIsjjoOZ1HywqQ3y7T4lSuiXb9zWTkFsaAgU-EALw_wcB"
+		(property "Mouser Part Number" ""
+			(at 293.37 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.adafruit.com/product/790?gad_source=1&gclid=Cj0KCQiAsaS7BhDPARIsAAX5cSBvdF13g1xnso75e2ID2pkFIsjjoOZ1HywqQ3y7T4lSuiXb9zWTkFsaAgU-EALw_wcB"
+			(at 293.37 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PA1616S"
 			(at 293.37 195.58 0)
 			(effects
 				(font
@@ -12268,7 +12583,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -12359,82 +12692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 162.56 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a5bd778-bb84-4065-9fe4-49c54050bfde")
-		(property "Reference" "D1"
-			(at 166.37 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RF_COM"
-			(at 166.624 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 160.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 162.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 162.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e13258e2-66b7-42a1-832b-917050f3d0a6")
-		)
-		(pin "1"
-			(uuid "7b15d186-d9c9-42c1-8cc3-d2bc2ce4fe16")
-		)
-		(instances
-			(project "DataAcqLeaderBoard"
-				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 220.98 226.06 0)
 		(unit 1)
@@ -12515,6 +12772,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/IRLML0030TRPBF?qs=9%252BKlkBgLFf0lLJi3xz1alg%3D%3D&srsltid=AfmBOorXGMuE2Kje76Z6bzMZf6A517ryw6-sjQiB6uVHOhQF_6IRHheY"
+			(at 220.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 220.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML0030TRPBF "
+			(at 220.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f31efddf-09fa-49ac-a7ae-e07e56de7de9")
 		)
@@ -12528,6 +12812,70 @@
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-misc:Logo_Placeholder")
+		(at 220.98 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc5d06c-6759-4795-88f7-29b0682c459b")
+		(property "Reference" "LOGO2"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "UTSVT"
+			(at 224.79 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:UTSVT_Logo_Symbol"
+			(at 220.98 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DataAcqLeaderBoard"
+				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
@@ -12654,7 +13002,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "https://www.digikey.com/en/products/detail/pulse-electronics/GMLB-100505-0600A-N8/12417638"
+		(property "Mouser Part Number" ""
+			(at 270.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/pulse-electronics/GMLB-100505-0600A-N8/12417638"
+			(at 270.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "GMLB-100505-0600A-N8 "
 			(at 270.51 158.75 0)
 			(effects
 				(font
@@ -12739,6 +13105,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "795a5076-0cad-4986-99a0-03feaab69e4f")
 		)
@@ -12809,6 +13193,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Molex/22-28-4035?qs=GAPJcf4kvduMvGzMBKHaPg%3D%3D"
+			(at 186.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "22-28-4035 "
+			(at 186.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-28-4035 "
+			(at 186.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "82ba132a-0c74-44aa-9530-730c2e14b366")
 		)
@@ -12836,7 +13247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3116e1a9-f6f4-44f8-8ab7-8efea850d7e1")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 274.32 226.568 90)
 			(effects
 				(font
@@ -12888,6 +13299,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 270.51 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 270.51 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9332fa1-ecac-4bf5-85db-99c41721acef")
 		)
@@ -12897,7 +13326,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13098,6 +13527,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 184.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 184.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e64ec6bc-2a2b-4ecd-9426-4b1ca9e15239")
 		)
@@ -13122,7 +13569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b8faad9-e3d4-421f-9c04-d220756eb94d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 155.956 108.966 90)
 			(effects
 				(font
@@ -13130,8 +13577,8 @@
 				)
 			)
 		)
-		(property "Value" "RF_MOD"
-			(at 156.464 106.68 90)
+		(property "Value" "RF_COM_LED"
+			(at 159.004 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,6 +13621,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "148f1979-0ffe-42b4-9bca-9b7f46be7bd2")
 		)
@@ -13183,7 +13648,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13512,7 +13977,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 168.91 85.09 0)
 			(effects
 				(font
@@ -13588,7 +14071,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "653-B3SL-1002P"
+			(at 218.44 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&utm_id=11748317973&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g3Fqn7f61op-9Tc7V2ka0jyWp3NSgSEO-0PsZgN42JK6OVhKuBWhMRoC6isQAvD_BwE"
+			(at 218.44 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "B3SL-1002P "
 			(at 218.44 191.77 0)
 			(effects
 				(font
@@ -13607,84 +14108,6 @@
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52bc862f-87af-40bf-aa64-8d864de7584d")
-		(property "Reference" "R9"
-			(at 165.354 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 165.1 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 160.782 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NRSET Pull Up"
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df433091-61fb-4daf-87d4-01ebaa01c0fc")
-		)
-		(pin "2"
-			(uuid "4a828215-aba2-4c18-9818-d670f59a981d")
-		)
-		(instances
-			(project "DataAcqLeaderBoard"
-				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13810,7 +14233,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "755-TCP0J106M8R "
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/TCP0J106M8R?qs=gmcn8Ik9O3HZ%252B34S5YYCCQ%3D%3D"
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TCP0J106M8R "
 			(at 60.96 166.37 0)
 			(effects
 				(font
@@ -14095,6 +14536,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 284.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 284.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dc0eea0-ceca-4ba2-8631-8fe6e5da10f4")
 		)
@@ -14119,7 +14578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d83f9a1-6cd5-4d56-9a53-43a6535f8144")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 174.752 225.806 90)
 			(effects
 				(font
@@ -14171,6 +14630,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 179.07 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 179.07 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc870244-452c-4324-af8f-d46f8a2a6e6c")
 		)
@@ -14180,7 +14657,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14306,7 +14783,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C470F5G "
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C470F5GACTU?qs=fI854BrZEijgUEI6lxo0jA%3D%3D"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C470F5GACTU"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -14383,7 +14878,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-53307-2471 "
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Molex/53307-2471?qs=3DzawVMofg%252Bx9c%2FNm7UacA%3D%3D&srsltid=AfmBOor27lcVljgx-DeBHh1R2KPiIIVXjLsa6vFQtsHEsVrDebWYykB5"
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "53307-2471 "
 			(at 342.9 43.18 0)
 			(effects
 				(font
@@ -14598,6 +15111,24 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digi.com/products/embedded-systems/digi-xbee/rf-modules/sub-1-ghz-rf-modules/digi-xbee-xr-900#partnumbers"
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XB-9XR-DMRM-001"
 			(at 92.71 81.28 0)
 			(effects
 				(font
@@ -14838,7 +15369,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "755-TCTPL0G107M8R-V1 "
+			(at 40.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/TCTPL0G107M8R-V1?qs=Y0Uzf4wQF3nuA76NpVN8fA%3D%3D"
+			(at 40.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TCTPL0G107M8R-V1 "
 			(at 40.64 166.37 0)
 			(effects
 				(font
@@ -14916,7 +15465,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -15133,6 +15700,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&utm_id=11748317973&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g3Fqn7f61op-9Tc7V2ka0jyWp3NSgSEO-0PsZgN42JK6OVhKuBWhMRoC6isQAvD_BwE"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "B3SL-1002P "
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21f819a5-8b14-4841-a1dd-937858607f3c")
 		)
@@ -15202,7 +15787,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 260.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 260.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 260.35 212.09 0)
 			(effects
 				(font
@@ -15287,6 +15890,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 90.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 90.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e73baff1-083d-4614-9c30-694230776f01")
 		)
@@ -15355,6 +15976,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -15454,7 +16093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7873bcfd-8638-46d1-a19b-e2432550ff65")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 145.288 112.522 90)
 			(effects
 				(font
@@ -15506,6 +16145,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 142.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 142.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5476df3a-bfe8-4f64-b944-347c4ba5dceb")
 		)
@@ -15515,7 +16172,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15576,7 +16233,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-43650-0215 "
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/538-43650-0215"
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215 "
 			(at 327.66 124.46 0)
 			(effects
 				(font
@@ -15646,6 +16321,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Molex/22-28-4045?qs=MuwpYaHj752m1cM4X%252BE7xA%3D%3D"
+			(at 78.74 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "22-28-4045 "
+			(at 78.74 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-28-4045 "
 			(at 78.74 224.79 0)
 			(effects
 				(font
@@ -15730,7 +16432,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-43650-0215 "
+			(at 377.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/538-43650-0215"
+			(at 377.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215 "
 			(at 377.19 116.84 0)
 			(effects
 				(font
@@ -15940,7 +16660,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "653-B3SL-1002P"
+			(at 252.73 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&utm_id=11748317973&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g3Fqn7f61op-9Tc7V2ka0jyWp3NSgSEO-0PsZgN42JK6OVhKuBWhMRoC6isQAvD_BwE"
+			(at 252.73 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "B3SL-1002P "
 			(at 252.73 191.77 0)
 			(effects
 				(font
@@ -16090,6 +16828,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fe85acf-8907-4a28-820b-7f626bf7e608")
 		)
@@ -16166,6 +16922,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a4071b-4fbf-4bfa-be03-c8ad69dd7729")
 		)
@@ -16234,6 +17008,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 199.39 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 199.39 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 199.39 185.42 0)
 			(effects
 				(font
@@ -16377,6 +17169,24 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 180.34 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 180.34 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 180.34 179.07 0)
 			(effects
 				(font
@@ -16653,7 +17463,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-43650-0215 "
+			(at 327.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/538-43650-0215"
+			(at 327.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215 "
 			(at 327.66 111.76 0)
 			(effects
 				(font
@@ -16996,7 +17824,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 203.2 196.85 0)
 			(effects
 				(font
@@ -17081,6 +17927,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6a04eac-c12f-4791-a6fc-29fa9ea85d7d")
 		)
@@ -17150,7 +18014,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 68.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 68.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 68.58 191.77 0)
 			(effects
 				(font
@@ -17242,6 +18124,70 @@
 		)
 	)
 	(symbol
+		(lib_id "utsvt-misc:Logo_Placeholder")
+		(at 220.98 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b017f13d-7fe1-4ff8-985f-831b49ff541d")
+		(property "Reference" "LOGO1"
+			(at 220.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Otter"
+			(at 224.79 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DataAcqLeaderBoard-Footprints:otter"
+			(at 220.98 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DataAcqLeaderBoard"
+				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DataAcqLeaderBoard-Symbols:DigiXBee3LTECat4")
 		(at 133.35 193.04 0)
 		(unit 1)
@@ -17294,6 +18240,24 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digi.com/products/embedded-systems/digi-xbee/cellular-modems/digi-xbee-3-global-lte-cat-4#partnumbers"
+			(at 133.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XB3-C-G4-UT-001"
 			(at 133.35 193.04 0)
 			(effects
 				(font
@@ -17446,7 +18410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8bce2d7-c935-47a7-a854-109c02c081ed")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 72.39 201.422 90)
 			(effects
 				(font
@@ -17498,6 +18462,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad379bd5-377d-4499-9a40-23c70a4f9d55")
 		)
@@ -17507,7 +18489,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17565,7 +18547,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 179.07 66.04 0)
 			(effects
 				(font
@@ -17608,7 +18608,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 284.48 171.4499 0)
 			(effects
 				(font
@@ -17644,7 +18644,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C104M5R "
+			(at 280.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=VOOUd%252Bza08qHu13WgNByHQ%3D%3D&srsltid=AfmBOooDAjIt8hpAKLpOIGKqvkv8Ty8ZpBJjEzJCyPzooeik1esCGJi1"
+			(at 280.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 280.67 170.18 0)
 			(effects
 				(font
@@ -17670,7 +18688,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 227.33 119.38 0)
+		(at 233.68 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17679,7 +18697,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfce613e-c6c1-495f-84f0-346b84ec00d1")
 		(property "Reference" "H2"
-			(at 229.87 118.1099 0)
+			(at 236.22 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17688,7 +18706,7 @@
 			)
 		)
 		(property "Value" "M.3"
-			(at 229.87 120.6499 0)
+			(at 236.22 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17697,7 +18715,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 227.33 119.38 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17706,7 +18724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 119.38 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17715,7 +18733,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 227.33 119.38 0)
+			(at 233.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 233.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +18844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c14e1182-cf16-4309-8dd8-f486ce15c205")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 193.294 216.154 90)
 			(effects
 				(font
@@ -17860,6 +18896,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 187.96 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 187.96 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f137c018-4190-4f88-abe7-21145208d875")
 		)
@@ -17869,7 +18923,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17929,7 +18983,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 55.88 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 55.88 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 55.88 191.77 0)
 			(effects
 				(font
@@ -18146,6 +19218,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "043f0754-d874-4d3c-8273-ca5de8d15d1f")
 		)
@@ -18237,7 +19327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9a8fd7e-dd36-4ba4-9250-5e20f3899122")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 134.366 122.682 90)
 			(effects
 				(font
@@ -18289,6 +19379,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK "
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c3cfc41-f1be-4063-9e3d-fbd29aaec82e")
 		)
@@ -18298,7 +19406,7 @@
 		(instances
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -18359,7 +19467,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "538-43650-0215 "
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/538-43650-0215"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0215 "
 			(at 276.86 114.3 0)
 			(effects
 				(font
@@ -18430,6 +19556,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 375.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Molex/22-28-4035?qs=GAPJcf4kvduMvGzMBKHaPg%3D%3D"
+			(at 375.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "22-28-4035 "
+			(at 375.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-28-4035 "
 			(at 375.92 185.42 0)
 			(effects
 				(font
@@ -18911,7 +20064,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "755-TCTPL0G107M8R-V1 "
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/TCTPL0G107M8R-V1?qs=Y0Uzf4wQF3nuA76NpVN8fA%3D%3D"
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TCTPL0G107M8R-V1 "
 			(at 50.8 166.37 0)
 			(effects
 				(font
@@ -18930,6 +20101,70 @@
 			(project "DataAcqLeaderBoard"
 				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-misc:Logo_Placeholder")
+		(at 220.98 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d860afb3-6707-4bb1-8e36-493b8ff916ee")
+		(property "Reference" "LOGO3"
+			(at 220.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Sun"
+			(at 224.79 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DataAcqLeaderBoard-Footprints:sun"
+			(at 220.98 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 220.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DataAcqLeaderBoard"
+				(path "/1b10b11c-cc8f-468f-8a53-197fbad2a492"
+					(reference "LOGO3")
 					(unit 1)
 				)
 			)
@@ -18989,7 +20224,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -19065,7 +20318,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 208.28 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 208.28 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 208.28 191.77 0)
 			(effects
 				(font
@@ -19304,6 +20575,33 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/IRLML0030TRPBF?qs=9%252BKlkBgLFf0lLJi3xz1alg%3D%3D&srsltid=AfmBOorXGMuE2Kje76Z6bzMZf6A517ryw6-sjQiB6uVHOhQF_6IRHheY"
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IRLML0030TRPBF"
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML0030TRPBF "
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2d49a738-9c73-4c70-b437-67125489cef2")
 		)
@@ -19444,7 +20742,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW080510K0FKEAC"
+			(at 363.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 363.22 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 363.22 223.52 0)
 			(effects
 				(font
@@ -19522,7 +20838,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 179.07 213.36 0)
 			(effects
 				(font
@@ -19583,7 +20917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -19601,7 +20935,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -19679,7 +21031,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 274.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 274.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 274.32 196.85 0)
 			(effects
 				(font
@@ -19957,7 +21327,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "https://www.mouser.com/ProductDetail/Keystone-Electronics/2994TR?qs=BMR1h6ig6pBQGK4xQ7FwKQ%3D%3D"
+		(property "Mouser Part Number" "534-2994TR"
+			(at 248.92 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/2994TR?qs=BMR1h6ig6pBQGK4xQ7FwKQ%3D%3D"
+			(at 248.92 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "2994TR"
 			(at 248.92 219.71 0)
 			(effects
 				(font
@@ -20039,7 +21427,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C105J4RACLR "
+			(at 270.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C105J4RAC7210?qs=7zB%252BIQS%2FKOJG%252BUtduyFhHw%3D%3D"
+			(at 270.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105J4RAC7210"
 			(at 270.51 170.18 0)
 			(effects
 				(font
@@ -20265,7 +21671,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 227.33 110.49 0)
+		(at 233.68 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20274,7 +21680,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee58b617-7bc9-4537-9cba-dd0dcc4696b6")
 		(property "Reference" "H1"
-			(at 229.87 109.2199 0)
+			(at 236.22 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,7 +21689,7 @@
 			)
 		)
 		(property "Value" "M.3"
-			(at 229.87 111.7599 0)
+			(at 236.22 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20292,7 +21698,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 227.33 110.49 0)
+			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20301,7 +21707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 110.49 0)
+			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20310,7 +21716,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 227.33 110.49 0)
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20449,7 +21873,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 270.51 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 270.51 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 270.51 215.9 0)
 			(effects
 				(font
@@ -20662,7 +22104,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "80-C0805C560FBG "
+			(at 82.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KEMET/C0805C560FBGACTU?qs=7IaIRco65pnJB5L%2Foom%252BKQ%3D%3D"
+			(at 82.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C560FBGACTU"
 			(at 82.55 166.37 0)
 			(effects
 				(font
@@ -20804,7 +22264,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "653-B3SL-1002P"
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1002P?qs=h8kCHL4kpM7r31L1Z%2F%2FPBA%3D%3D&utm_id=11748317973&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g3Fqn7f61op-9Tc7V2ka0jyWp3NSgSEO-0PsZgN42JK6OVhKuBWhMRoC6isQAvD_BwE"
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "B3SL-1002P "
 			(at 190.5 81.28 0)
 			(effects
 				(font
@@ -20945,7 +22423,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-CRCW08051K00FKEAC"
+			(at 264.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW08051K00FKEAC?qs=CZ6xfwOSLTXmQIgaYvN%2FBA%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9g5nGjZLAmTH7WDE3r5fiVtQx2xy1kMlfHgZJiGjKp7E_lflLsUiKMxoChNQQAvD_BwE"
+			(at 264.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -21097,6 +22593,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080510K0FKEA?qs=LOX6nxTstiZjDFtI%2F0c8Lw%3D%3D&utm_id=8791529225&gad_source=1&gclid=CjwKCAiAhP67BhAVEiwA2E_9gwE6c5uIXF_e8E4XWu9TqUsCdxHoT8O-di25N1pJkLQVdtDpVs-qwxoCB3sQAvD_BwE"
+			(at 213.36 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEA"
+			(at 213.36 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "918decf7-c3cc-48e5-a35a-6bb6cc004de3")
 		)
@@ -21167,7 +22681,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "755-TCP0J106M8R "
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/TCP0J106M8R?qs=gmcn8Ik9O3HZ%252B34S5YYCCQ%3D%3D"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TCP0J106M8R "
 			(at 30.48 40.64 0)
 			(effects
 				(font

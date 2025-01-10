@@ -6,30 +6,31 @@ This PCB is designed for our solar vehicle to collect electrical and mechanical 
 
 LTE LEDs:
 
-* HB (D8): Heartbeat.
+* HB (D7): Heartbeat.
   * Blinking = Our code is running on module.
-* RSSI (D6): Received Singal Strength Integrity.
+* RSSI (D5): Received Singal Strength Integrity.
   * PWM based on strength (brighter = better).
-* CONN (D5): Connection Indicator.
+* CONN (D4): Connection Indicator.
   * On, solid = Not connected.
   * 1/2 sec period blink = Last transmit failed.
   * 1 sec blink period = Normal operation.
-* ON (D7): On.
+* ON (D6): On.
   * On = Module is on.
 
 RF LEDs:
 
-* MOD (D2): Module status.
+* COM (D1): Commissioning (associate) status.
   * Blinking = Device is powered and operating properly.
   * Off = Device is alseep.
-* ON (D3): On.
+  * Note: blinks with certain patterns depending on number of RF_COM button presses (see datasheet).
+* ON (D2): On.
   * On = Module is on.
-* RSSI (D4): Received Singal Strength Integrity.
+* RSSI (D3): Received Singal Strength Integrity.
   * PWM based on strength (brighter = better).
 
 GPS LED:
 
-* NFX (D9): Negative 3D Fix.
+* NFX (D8): Negative 3D Fix.
   * Blinking (2 sec period) = Searching for satellites, no position fix.
   * Off = Acquired satellite signal.
 
@@ -59,6 +60,13 @@ GPS Testpoints:
   * Pin 2 SCL = Serial Clock
   * Pin 1 NR = Negative Reset (Note: this is not a I2C singal, it is the module NRESET singal)
 
+## Pushbutton Descriptions
+
+LTE_RESET: When pressed LTE module resets.
+GPS_RESET: When pressed GPS module resets.
+RF_RESET: When pressed RF module resets.
+RF_COM: RF Commissioning button (see datasheet).
+
 ## PCB
 
 ![image](DataAcqLeaderBoard_PCB.png)
@@ -69,6 +77,13 @@ GPS Testpoints:
 
 ## BOM
 
-Pending
-<!-- [**BOM**](bom/DataAcq-LeaderPCB.csv)   -->
-<!-- [**IBOM**](bom/ibom.html) -->
+[BOM](DataAcqLeaderBoard/bom/bom.csv)
+[IBOM](DataAcqLeaderBoard/bom/ibom.html)
+[Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=583e28cb45)
+
+Cart does not include: 
+
+  - [GPS Ferite Bead](https://www.digikey.com/en/products/detail/pulse-electronics/GMLB-100505-0600A-N8/12417638)
+  - [GPS Module]( https://www.adafruit.com/product/790?gad_source=1&gclid=Cj0KCQiAsaS7BhDPARIsAAX5cSBvdF13g1xnso75e2ID2pkFIsjjoOZ1HywqQ3y7T4lSuiXb9zWTkFsaAgU-EALw_wcB)
+  - [Digi XBee LTE Module](https://www.digi.com/products/embedded-systems/digi-xbee/cellular-modems/digi-xbee-3-global-lte-cat-4#partnumbers )
+  - [Digi XBee RF Module](https://www.digi.com/products/embedded-systems/digi-xbee/rf-modules/sub-1-ghz-rf-modules/digi-xbee-xr-900#partnumbers)

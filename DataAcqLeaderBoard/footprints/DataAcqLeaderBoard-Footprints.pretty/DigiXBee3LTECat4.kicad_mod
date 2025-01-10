@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +71,7 @@
 		(start -15.24 -15.0622)
 		(end -15.24 21.59)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -81,7 +81,7 @@
 		(start -15.24 -15.0622)
 		(end -8.001 -21.59)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -91,7 +91,7 @@
 		(start -8.001 -21.59)
 		(end 8.001 -21.59)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -101,7 +101,7 @@
 		(start 15.24 -15.0622)
 		(end 8.001 -21.59)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -111,7 +111,7 @@
 		(start 15.24 -15.0622)
 		(end 15.24 21.59)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -121,7 +121,7 @@
 		(start 15.24 21.59)
 		(end -15.24 21.59)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -131,7 +131,7 @@
 		(start -8 7)
 		(end 3.5 21)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill none)
@@ -142,7 +142,7 @@
 		(start -7 -20)
 		(end 2 -6)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill none)
@@ -160,6 +160,166 @@
 		(layer "F.SilkS")
 		(uuid "03b3793a-8541-4363-8b28-82f86f9db2a5")
 	)
+	(fp_line
+		(start -12.0482 -4.7244)
+		(end -12.0482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "9449ade9-290d-43fb-b1ec-3dae696a164c")
+	)
+	(fp_line
+		(start -12.0482 -4.7244)
+		(end -9.9482 -4.7244)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "935227e6-99bd-40b2-b88c-7bb327f61563")
+	)
+	(fp_line
+		(start -12.0482 15.3756)
+		(end -9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "e7aa1a37-d987-455d-973d-052b167e9e6f")
+	)
+	(fp_line
+		(start -9.9482 -4.7244)
+		(end -9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "b68d3c7e-bacb-4a3e-bf6d-730fdeb260ef")
+	)
+	(fp_line
+		(start 9.9482 -4.7244)
+		(end 9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "b0e830b2-2873-4eaa-9c5d-2566fb6ab1a3")
+	)
+	(fp_line
+		(start 12.0482 -4.7244)
+		(end 9.9482 -4.7244)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "54a8c453-bd0a-4356-b2b2-087391f62efa")
+	)
+	(fp_line
+		(start 12.0482 -4.7244)
+		(end 12.0482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "9af2fcda-39cf-485b-a713-9d3af374ee2e")
+	)
+	(fp_line
+		(start 12.0482 15.3756)
+		(end 9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "c5961c03-f75a-460b-91d0-b02c6ef02397")
+	)
+	(fp_line
+		(start -12.0482 -4.7244)
+		(end -12.0482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dfeb43a-0a54-4645-ae03-d7fbed7867b5")
+	)
+	(fp_line
+		(start -12.0482 -4.7244)
+		(end -9.9482 -4.7244)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b30b3dc-874d-4552-99e8-cf0e2061ac1b")
+	)
+	(fp_line
+		(start -12.0482 15.3756)
+		(end -9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2d5331e-3d85-4b31-ae7b-db455fc9907f")
+	)
+	(fp_line
+		(start -9.9482 -4.7244)
+		(end -9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2c97aa3-af82-4065-b74a-fa1cbf33106c")
+	)
+	(fp_line
+		(start 9.9482 -4.7244)
+		(end 9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bf18ebe-cab5-4eb7-a40c-026e9513f707")
+	)
+	(fp_line
+		(start 12.0482 -4.7244)
+		(end 9.9482 -4.7244)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "63bb07df-3661-4507-be7c-a6560bbdcba1")
+	)
+	(fp_line
+		(start 12.0482 -4.7244)
+		(end 12.0482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcaa0d6b-d99c-4d77-aaa0-9249c739ff4e")
+	)
+	(fp_line
+		(start 12.0482 15.3756)
+		(end 9.9482 15.3756)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "249f7934-5abc-4e2e-ac08-da530037390d")
+	)
 	(fp_text user "SIM"
 		(at -3.5 14 0)
 		(unlocked yes)
@@ -168,7 +328,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)

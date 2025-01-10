@@ -4,19 +4,19 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -10.80031 0)
+		(at 0 -11.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9ac270c6-680c-4325-956e-fd5071aa437a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "XBeeXR900RFMicro"
-		(at 0 11.19969 0)
+		(at 0 12.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "794aa575-629e-4bf9-a51c-208db9f5db3c")
@@ -68,15 +68,15 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -7.8 -10)
-		(end 7.8 10)
+		(start -7.6271 -10.69415)
+		(end 7.6271 9.80769)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "8d98711e-21ba-4410-bbd1-b926609369e4")
+		(uuid "740a6854-3fb1-42a6-994a-e88dbb820815")
 	)
 	(fp_circle
 		(center -9 -6.54431)
@@ -89,8 +89,48 @@
 		(layer "F.SilkS")
 		(uuid "7f077547-be5d-432c-861c-9f2a085740e6")
 	)
+	(fp_line
+		(start -7.5271 -10.59415)
+		(end -7.5271 9.70769)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a53c5190-abf7-4175-98fd-c98c51799837")
+	)
+	(fp_line
+		(start -7.5271 -10.59415)
+		(end 7.5271 -10.59415)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f140ebfb-1b8c-40a8-89f5-12284f9434b1")
+	)
+	(fp_line
+		(start 7.5271 -10.59415)
+		(end 7.5271 9.70769)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "034a1fab-8fb9-4cc8-8d63-f9a702000520")
+	)
+	(fp_line
+		(start 7.5271 9.70769)
+		(end -7.5271 9.70769)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "697d1f79-0a92-4ff4-bb50-67a5e1c1259b")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 12.69969 0)
+		(at 0 13.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b45e50af-998f-44bd-a6ea-030339776192")
