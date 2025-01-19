@@ -9584,17 +9584,6 @@
 		)
 		(uuid "28ef767c-c395-488e-bf2a-b3285e643bbd")
 	)
-	(label "GPS_I2C_SCL"
-		(at 363.22 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e8d6174-7569-4abe-b11d-77555c535f71")
-	)
 	(label "LTE_D7"
 		(at 179.07 218.44 0)
 		(fields_autoplaced yes)
@@ -9792,6 +9781,28 @@
 			(justify left bottom)
 		)
 		(uuid "5ddca449-2b88-4fb1-a4fa-eaeec9af7901")
+	)
+	(label "GPS_I2C_SDA"
+		(at 363.22 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e3a5510-594b-4087-8c97-8a323b3da628")
+	)
+	(label "GPS_I2C_SCL"
+		(at 363.22 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ec22ae3-fe91-44de-9b9f-4be5b0f66b8c")
 	)
 	(label "RF_NRTS"
 		(at 284.48 55.88 0)
@@ -10265,17 +10276,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5b4bdf0-cae1-4af6-ad7f-75f943a222a7")
-	)
-	(label "GPS_I2C_SDA"
-		(at 363.22 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6096184-2a97-433d-8b43-93efd1224b47")
 	)
 	(label "RF_NRESET"
 		(at 173.99 39.37 0)
